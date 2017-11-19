@@ -1,0 +1,532 @@
+<h2>C compilers[<a href="https://en.wikipedia.org/w/index.php?@***@le=list_of_compilers&amp;action=edit&amp;section=10">edit</a>ed]</h2>
+
+<p>this list is&nbsp;<a href="https://en.wikipedia.org/wiki/wikipedia:wikiproject_lists#incomplete_lists">incomplete</a>; you can helps by&nbsp;<a href="https://en.wikipedia.org/w/index.php?@***@le=list_of_compilers&amp;action=edit">expanding&nbsp;</a></p>
+
+<p>see also:&nbsp;<a href="https://en.wikipedia.org/wiki/list_of_c_to_hdl_compilers">list of c to hdl compilers</a></p>
+
+<table>
+	<thead>
+		<tr>
+			<th>compiler</th>
+			<th>author</th>
+			<th>microsoft windows</th>
+			<th>unix-like</th>
+			<th>other oss</th>
+			<th>license type</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td><a href="https://github.com/rui314/8cc">8cc</a></td>
+			<td>rui ueyama</td>
+			<td>no</td>
+			<td>yes</td>
+			<td>no</td>
+			<td><a href="https://en.wikipedia.org/wiki/mit_license">mit license</a></td>
+		</tr>
+		<tr>
+			<td>ampc</td>
+			<td><a href="https://en.wikipedia.org/w/index.php?@***@le=axiomatic_solutions_sdn_bhd&amp;action=edit&amp;redlink=1">axiomatic solutions sdn bhd</a></td>
+			<td>no</td>
+			<td>yes</td>
+			<td>yes</td>
+			<td><a href="https://en.wikipedia.org/wiki/proprietary_software">proprietary</a></td>
+		</tr>
+		<tr>
+			<td><a href="https://en.wikipedia.org/wiki/aztec_c">aztec c</a></td>
+			<td>manx software systems</td>
+			<td>no</td>
+			<td>no</td>
+			<td><a href="https://en.wikipedia.org/wiki/cp/m">cp/m</a>,&nbsp;<a href="https://en.wikipedia.org/wiki/cp/m-86">cp/m-86</a>,&nbsp;<a href="https://en.wikipedia.org/wiki/dos">dos</a>,&nbsp;<a href="https://en.wikipedia.org/wiki/cl@***@ic_mac_os">cl@***@ic mac os</a></td>
+			<td><a href="https://en.wikipedia.org/wiki/proprietary_software">proprietary</a></td>
+		</tr>
+		<tr>
+			<td><a href="https://en.wikipedia.org/wiki/amsterdam_compiler_kit">amsterdam compiler kit</a></td>
+			<td><a href="https://en.wikipedia.org/wiki/andrew_tanenbaum">andrew tanenbaum</a>&nbsp;and&nbsp;<a href="https://en.wikipedia.org/w/index.php?@***@le=ceriel_jacobs&amp;action=edit&amp;redlink=1">ceriel jacobs</a></td>
+			<td>no</td>
+			<td>yes</td>
+			<td>yes</td>
+			<td><a href="https://en.wikipedia.org/wiki/bsd_licenses">bsd</a></td>
+		</tr>
+		<tr>
+			<td><a href="http://www.ccsinfo.com/content.php?page=compilers">ccs c compiler</a></td>
+			<td><a href="https://en.wikipedia.org/w/index.php?@***@le=ccs,_inc.&amp;action=edit&amp;redlink=1">ccs, inc.</a></td>
+			<td>yes</td>
+			<td>yes</td>
+			<td>yes</td>
+			<td><a href="https://en.wikipedia.org/wiki/proprietary_software">proprietary</a></td>
+		</tr>
+		<tr>
+			<td><a href="https://en.wikipedia.org/wiki/ch_(computer_programming)">ch</a></td>
+			<td><a href="http://www.softintegration.com/">softintegration, inc</a></td>
+			<td>yes</td>
+			<td><a href="https://en.wikipedia.org/wiki/os_x">os x</a>,&nbsp;<a href="https://en.wikipedia.org/wiki/freebsd">freebsd</a>,&nbsp;<a href="https://en.wikipedia.org/wiki/linux">linux</a>,&nbsp;<a href="https://en.wikipedia.org/wiki/solaris_(operating_system)">solaris</a>,&nbsp;<a href="https://en.wikipedia.org/wiki/hp-ux">hp-ux</a>,&nbsp;<a href="https://en.wikipedia.org/wiki/aix">aix</a>,&nbsp;<a href="https://en.wikipedia.org/wiki/qnx">qnx</a></td>
+			<td>yes</td>
+			<td><a href="https://en.wikipedia.org/wiki/freeware">freeware</a></td>
+		</tr>
+		<tr>
+			<td><a href="https://en.wikipedia.org/wiki/clang">clang</a></td>
+			<td><a href="https://en.wikipedia.org/wiki/llvm">llvm</a>&nbsp;project</td>
+			<td>yes</td>
+			<td>yes</td>
+			<td>yes</td>
+			<td><a href="https://en.wikipedia.org/wiki/bsd_licenses">bsd</a></td>
+		</tr>
+		<tr>
+			<td><a href="https://en.wikipedia.org/wiki/codewarrior">codewarrior</a></td>
+			<td><a href="https://en.wikipedia.org/wiki/metrowerks">metrowerks</a></td>
+			<td>yes</td>
+			<td>yes</td>
+			<td><a href="https://en.wikipedia.org/wiki/cl@***@ic_mac_os">cl@***@ic mac os</a></td>
+			<td><a href="https://en.wikipedia.org/wiki/proprietary_software">proprietary</a></td>
+		</tr>
+		<tr>
+			<td><a href="https://en.wikipedia.org/wiki/compcert">compcert</a></td>
+			<td><a href="https://en.wikipedia.org/wiki/inria">inria</a></td>
+			<td>yes</td>
+			<td>yes</td>
+			<td>no</td>
+			<td><a href="https://en.wikipedia.org/wiki/freeware">freeware</a>&nbsp;(source code available for non-commercial use) or&nbsp;<a href="https://en.wikipedia.org/wiki/gpl">gpl</a></td>
+		</tr>
+		<tr>
+			<td><a href="http://cosmic-software.com/products.php">cosmic c compilers</a></td>
+			<td>cosmic software</td>
+			<td>yes</td>
+			<td><a href="https://en.wikipedia.org/wiki/linux">linux</a>,&nbsp;<a href="https://en.wikipedia.org/wiki/solaris_(operating_system)">solaris</a>,&nbsp;<a href="https://en.wikipedia.org/wiki/hp-ux">hp-ux</a></td>
+			<td>no</td>
+			<td><a href="https://en.wikipedia.org/wiki/proprietary_software">proprietary</a></td>
+		</tr>
+		<tr>
+			<td><a href="http://pp.ipd.kit.edu/firm">cparser/libfirm</a></td>
+			<td>matthias braun, christoph mallon and michael beck</td>
+			<td>yes</td>
+			<td>yes</td>
+			<td>yes</td>
+			<td><a href="https://en.wikipedia.org/wiki/gnu_lesser_general_public_license">lgpl</a></td>
+		</tr>
+		<tr>
+			<td><a href="http://www.desmet-c.com/">desmet-c</a></td>
+			<td><a href="https://en.wikipedia.org/w/index.php?@***@le=c-ware_corporation&amp;action=edit&amp;redlink=1">c-ware corporation</a></td>
+			<td>no</td>
+			<td>no</td>
+			<td><a href="https://en.wikipedia.org/wiki/dos">dos</a></td>
+			<td><a href="https://en.wikipedia.org/wiki/gnu_general_public_license">gpl</a></td>
+		</tr>
+		<tr>
+			<td><a href="https://en.wikipedia.org/wiki/digital_mars">digital mars</a></td>
+			<td>digital mars</td>
+			<td>yes</td>
+			<td>no</td>
+			<td>no</td>
+			<td><a href="https://en.wikipedia.org/wiki/proprietary_software">proprietary</a></td>
+		</tr>
+		<tr>
+			<td><a href="http://www.dignus.com/">dignus</a>systems/c</td>
+			<td>dignus, l.l.c</td>
+			<td>yes (host)</td>
+			<td>yes (host)</td>
+			<td><a href="https://en.wikipedia.org/wiki/z/architecture">z/architecture</a></td>
+			<td><a href="https://en.wikipedia.org/wiki/proprietary_software">proprietary</a></td>
+		</tr>
+		<tr>
+			<td><a href="https://en.wikipedia.org/wiki/edison_design_group">edison design group</a></td>
+			<td><a href="https://en.wikipedia.org/wiki/edison_design_group">edison design group</a></td>
+			<td>yes</td>
+			<td>yes</td>
+			<td>yes</td>
+			<td><a href="https://en.wikipedia.org/wiki/proprietary_software">proprietary</a></td>
+		</tr>
+		<tr>
+			<td><a href="https://en.wikipedia.org/wiki/gnu_compiler_collection">gcc</a>&nbsp;c</td>
+			<td><a href="https://en.wikipedia.org/wiki/gnu_project">gnu project</a></td>
+			<td><a href="https://en.wikipedia.org/wiki/mingw">mingw</a>,&nbsp;<a href="https://en.wikipedia.org/wiki/cygwin">cygwin</a></td>
+			<td>yes</td>
+			<td>ibm mainframe,&nbsp;<a href="https://en.wikipedia.org/wiki/amigaos">amigaos</a>,&nbsp;<a href="https://en.wikipedia.org/wiki/vax/vms">vax/vms</a>,&nbsp;<a href="https://en.wikipedia.org/wiki/rtems">rtems</a>,&nbsp;<a href="https://en.wikipedia.org/wiki/dos">dos</a><a href="https://en.wikipedia.org/wiki/list_of_compilers#cite_note-1">[1]</a></td>
+			<td><a href="https://en.wikipedia.org/wiki/gnu_general_public_license">gpl</a></td>
+		</tr>
+		<tr>
+			<td><a href="http://www.hightec-rt.com/">hightec compiler</a></td>
+			<td>hightec-rt</td>
+			<td>yes</td>
+			<td>no</td>
+			<td>no</td>
+			<td><a href="https://en.wikipedia.org/wiki/proprietary_software">proprietary</a></td>
+		</tr>
+		<tr>
+			<td>hippo-c</td>
+			<td>hippopotamus software, haba systems</td>
+			<td>no</td>
+			<td>no</td>
+			<td><a href="https://en.wikipedia.org/wiki/cl@***@ic_mac_os">cl@***@ic mac os</a>,&nbsp;<a href="https://en.wikipedia.org/wiki/atari_st">atari st</a></td>
+			<td><a href="https://en.wikipedia.org/wiki/proprietary_software">proprietary</a></td>
+		</tr>
+		<tr>
+			<td><a href="http://www.iar.com/">iar c/c++ compilers</a></td>
+			<td><a href="https://en.wikipedia.org/wiki/iar_systems">iar systems</a></td>
+			<td>yes</td>
+			<td>no</td>
+			<td>no</td>
+			<td><a href="https://en.wikipedia.org/wiki/proprietary_software">proprietary</a></td>
+		</tr>
+		<tr>
+			<td><a href="https://en.wikipedia.org/wiki/interactive_c">interactive c</a></td>
+			<td><a href="http://www.kipr.org/">kiss ins@***@ute for practical robotics</a></td>
+			<td>yes</td>
+			<td><a href="https://en.wikipedia.org/wiki/unix">unix</a>,&nbsp;<a href="https://en.wikipedia.org/wiki/os_x">os x</a>,&nbsp;<a href="https://en.wikipedia.org/wiki/linux">linux</a>,&nbsp;<a href="https://en.wikipedia.org/wiki/irix">irix</a>,&nbsp;<a href="https://en.wikipedia.org/wiki/solaris_(operating_system)">solaris</a>,&nbsp;<a href="https://en.wikipedia.org/wiki/sunos">sunos</a></td>
+			<td>no</td>
+			<td><a href="https://en.wikipedia.org/wiki/freeware">freeware</a></td>
+		</tr>
+		<tr>
+			<td><a href="http://www.keil.com/">keil c/c++ compilers</a></td>
+			<td><a href="https://en.wikipedia.org/wiki/keil_(company)">keil (company)</a></td>
+			<td>yes</td>
+			<td>yes</td>
+			<td>no</td>
+			<td><a href="https://en.wikipedia.org/wiki/proprietary_software">proprietary</a></td>
+		</tr>
+		<tr>
+			<td><a href="https://en.wikipedia.org/wiki/labwindows/cvi">labwindows/cvi</a></td>
+			<td><a href="https://en.wikipedia.org/wiki/national_instruments">national instruments</a></td>
+			<td>yes</td>
+			<td>yes</td>
+			<td>yes</td>
+			<td><a href="https://en.wikipedia.org/wiki/proprietary_software">proprietary</a></td>
+		</tr>
+		<tr>
+			<td><a href="https://en.wikipedia.org/wiki/lattice_c">lattice c</a></td>
+			<td><a href="https://en.wikipedia.org/wiki/lifeboat_@***@ociates">lifeboat @***@ociates</a></td>
+			<td>no</td>
+			<td>yes</td>
+			<td><a href="https://en.wikipedia.org/wiki/dos">dos</a>,&nbsp;<a href="https://en.wikipedia.org/wiki/os/2">os/2</a>,&nbsp;<a href="https://en.wikipedia.org/wiki/commodore_international">commodore</a>,&nbsp;<a href="https://en.wikipedia.org/wiki/amiga">amiga</a>,&nbsp;<a href="https://en.wikipedia.org/wiki/atari_st">atari st</a>,&nbsp;<a href="https://en.wikipedia.org/wiki/sinclair_ql">sinclair ql</a></td>
+			<td><a href="https://en.wikipedia.org/wiki/proprietary_software">proprietary</a></td>
+		</tr>
+		<tr>
+			<td><a href="https://en.wikipedia.org/wiki/lcc_(compiler)">lcc</a></td>
+			<td><a href="https://en.wikipedia.org/wiki/chris_fraser">chris fraser</a>&nbsp;and&nbsp;<a href="https://en.wikipedia.org/wiki/david_hanson_(computer_scientist)">david hanson</a></td>
+			<td>yes</td>
+			<td>yes</td>
+			<td>yes</td>
+			<td><a href="https://en.wikipedia.org/wiki/freeware">freeware</a>&nbsp;(source code available for non-commercial use)</td>
+		</tr>
+		<tr>
+			<td><a href="https://github.com/lugon/luxcc">luxcc</a></td>
+			<td><a href="https://en.wikipedia.org/w/index.php?@***@le=luciano_gonzalez&amp;action=edit&amp;redlink=1">luciano gonzalez</a></td>
+			<td>no</td>
+			<td>yes</td>
+			<td>no</td>
+			<td><a href="https://en.wikipedia.org/wiki/bsd_licenses">bsd</a></td>
+		</tr>
+		<tr>
+			<td><a href="http://macintoshgarden.org/apps/consulair-mac-c-development-system">mac c</a></td>
+			<td>consulair</td>
+			<td>no</td>
+			<td>no</td>
+			<td><a href="https://en.wikipedia.org/wiki/cl@***@ic_mac_os">cl@***@ic mac os</a></td>
+			<td><a href="https://en.wikipedia.org/wiki/proprietary_software">proprietary</a></td>
+		</tr>
+		<tr>
+			<td><a href="https://en.wikipedia.org/w/index.php?@***@le=mark_williams_c&amp;action=edit&amp;redlink=1">mark williams c</a></td>
+			<td><a href="https://en.wikipedia.org/wiki/mark_williams_company">mark williams company</a></td>
+			<td>yes</td>
+			<td><a href="https://en.wikipedia.org/wiki/coherent_(operating_system)">coherent</a></td>
+			<td>yes</td>
+			<td><a href="https://en.wikipedia.org/wiki/proprietary_software">proprietary</a>&nbsp;- coherent compiler 3-clause bsd</td>
+		</tr>
+		<tr>
+			<td><a href="http://www.cl@***@iccmp.org/dunfield/dos/">micro-c compiler (mcc)</a></td>
+			<td><a href="http://web.ncf.ca/dunfield">dunfield development services</a></td>
+			<td>no</td>
+			<td>no</td>
+			<td><a href="https://en.wikipedia.org/wiki/dos">dos</a></td>
+			<td><a href="https://en.wikipedia.org/wiki/freeware">freeware</a>&nbsp;(source code available)</td>
+		</tr>
+		<tr>
+			<td><a href="http://sourceforge.net/projects/microccompiler/">micro c compiler (mcc)</a></td>
+			<td>roshan singh</td>
+			<td>yes</td>
+			<td>yes</td>
+			<td>yes</td>
+			<td><a href="https://en.wikipedia.org/wiki/freeware">freeware</a>&nbsp;(source code available for non-commercial use)</td>
+		</tr>
+		<tr>
+			<td><a href="https://en.wikipedia.org/w/index.php?@***@le=mikroc_compiler&amp;action=edit&amp;redlink=1">mikroc compiler</a></td>
+			<td><a href="https://en.wikipedia.org/wiki/mikroelektronika">mikroelektronika</a></td>
+			<td>yes</td>
+			<td>yes</td>
+			<td>yes</td>
+			<td><a href="https://en.wikipedia.org/wiki/proprietary_software">proprietary</a></td>
+		</tr>
+		<tr>
+			<td><a href="https://en.wikipedia.org/wiki/macintosh_programmers_workshop">mpw</a>&nbsp;c</td>
+			<td><a href="https://en.wikipedia.org/wiki/apple_inc.">apple</a></td>
+			<td>no</td>
+			<td>no</td>
+			<td><a href="https://en.wikipedia.org/wiki/cl@***@ic_mac_os">cl@***@ic mac os</a></td>
+			<td><a href="https://en.wikipedia.org/wiki/proprietary_software">proprietary</a></td>
+		</tr>
+		<tr>
+			<td><a href="http://repo.or.cz/w/neatcc.git">neatcc</a></td>
+			<td><a href="http://litcave.rudi.ir/">ali gholami rudi</a></td>
+			<td>no</td>
+			<td>yes</td>
+			<td>no</td>
+			<td><a href="https://en.wikipedia.org/wiki/bsd_licenses">bsd</a></td>
+		</tr>
+		<tr>
+			<td><a href="http://nwcc.sourceforge.net/">nwcc</a></td>
+			<td><a href="https://en.wikipedia.org/w/index.php?@***@le=nils_weller&amp;action=edit&amp;redlink=1">nils weller</a></td>
+			<td>no</td>
+			<td>yes</td>
+			<td>no</td>
+			<td><a href="https://en.wikipedia.org/wiki/bsd_licenses">bsd</a></td>
+		</tr>
+		<tr>
+			<td><a href="https://en.wikipedia.org/wiki/open64">open64</a></td>
+			<td><a href="https://en.wikipedia.org/wiki/amd">amd</a>&nbsp;<a href="https://en.wikipedia.org/wiki/silicon_graphics">sgi</a>&nbsp;<a href="https://en.wikipedia.org/wiki/google">google</a>&nbsp;<a href="https://en.wikipedia.org/wiki/hewlett-packard">hp</a>&nbsp;<a href="https://en.wikipedia.org/wiki/intel">intel</a><a href="https://en.wikipedia.org/wiki/nvidia">nvidia</a>&nbsp;<a href="https://en.wikipedia.org/wiki/pathscale">pathscale</a>&nbsp;<a href="https://en.wikipedia.org/wiki/tsinghua_university">tsinghua university</a>&nbsp;and others</td>
+			<td>no</td>
+			<td>yes</td>
+			<td>yes</td>
+			<td><a href="https://en.wikipedia.org/wiki/gnu_general_public_license">gpl</a></td>
+		</tr>
+		<tr>
+			<td><a href="https://en.wikipedia.org/wiki/open_watcom">open watcom</a></td>
+			<td><a href="https://en.wikipedia.org/wiki/sybase">sybase</a>&nbsp;and&nbsp;<a href="https://en.wikipedia.org/wiki/scitech_software">scitech software</a></td>
+			<td>yes</td>
+			<td><a href="https://en.wikipedia.org/wiki/linux">linux</a></td>
+			<td><a href="https://en.wikipedia.org/wiki/os/2">os/2</a>,&nbsp;<a href="https://en.wikipedia.org/wiki/dos">dos</a>, etc.<a href="https://en.wikipedia.org/wiki/list_of_compilers#cite_note-watcom_platforms-2">[2]</a></td>
+			<td>sybase open watcom public license</td>
+		</tr>
+		<tr>
+			<td><a href="https://en.wikipedia.org/w/index.php?@***@le=orange_c_compiler&amp;action=edit&amp;redlink=1">orange c compiler</a></td>
+			<td><a href="https://en.wikipedia.org/w/index.php?@***@le=david_lindauer&amp;action=edit&amp;redlink=1">david lindauer</a></td>
+			<td>yes</td>
+			<td>no</td>
+			<td><a href="https://en.wikipedia.org/wiki/dos">dos</a></td>
+			<td><a href="https://en.wikipedia.org/wiki/bsd_licenses">bsd</a></td>
+		</tr>
+		<tr>
+			<td><a href="http://www.ibiblio.org/pub/micro/pc-stuff/freedos/files/distributions/1.2/repos/pkg-html/pacificc.html">pacific c</a></td>
+			<td><a href="https://en.wikipedia.org/wiki/microchip_technology">hi-tech software</a></td>
+			<td>no</td>
+			<td>no</td>
+			<td><a href="https://en.wikipedia.org/wiki/dos">dos</a></td>
+			<td><a href="https://en.wikipedia.org/wiki/freeware">freeware</a><a href="https://en.wikipedia.org/wiki/list_of_compilers#cite_note-3">[3]</a></td>
+		</tr>
+		<tr>
+			<td><a href="https://en.wikipedia.org/wiki/pelles_c">pelles c</a></td>
+			<td><a href="https://en.wikipedia.org/w/index.php?@***@le=pelle_orinius&amp;action=edit&amp;redlink=1">pelle orinius</a></td>
+			<td>yes</td>
+			<td>no</td>
+			<td>no</td>
+			<td><a href="https://en.wikipedia.org/wiki/freeware">freeware</a></td>
+		</tr>
+		<tr>
+			<td>pgcc</td>
+			<td><a href="https://en.wikipedia.org/wiki/the_portland_group">the portland group</a></td>
+			<td>yes</td>
+			<td>yes</td>
+			<td>unknown</td>
+			<td><a href="https://en.wikipedia.org/wiki/proprietary_software">proprietary</a></td>
+		</tr>
+		<tr>
+			<td><a href="https://en.wikipedia.org/wiki/portable_c_compiler">portable c compiler</a></td>
+			<td><a href="https://en.wikipedia.org/wiki/stephen_c._johnson">stephen c. johnson</a>,&nbsp;<a href="https://en.wikipedia.org/w/index.php?@***@le=anders_magnusson&amp;action=edit&amp;redlink=1">anders magnusson</a>&nbsp;and others</td>
+			<td>yes</td>
+			<td>yes</td>
+			<td>yes</td>
+			<td><a href="https://en.wikipedia.org/wiki/bsd_licenses">bsd</a></td>
+		</tr>
+		<tr>
+			<td><a href="https://en.wikipedia.org/w/index.php?@***@le=power_c&amp;action=edit&amp;redlink=1">power c</a></td>
+			<td><a href="https://en.wikipedia.org/w/index.php?@***@le=mix_software&amp;action=edit&amp;redlink=1">mix software</a></td>
+			<td>no</td>
+			<td>no</td>
+			<td>yes</td>
+			<td><a href="https://en.wikipedia.org/wiki/proprietary_software">proprietary</a></td>
+		</tr>
+		<tr>
+			<td><a href="https://en.wikipedia.org/wiki/quickc">quickc</a></td>
+			<td><a href="https://en.wikipedia.org/wiki/microsoft">microsoft</a></td>
+			<td>yes</td>
+			<td>no</td>
+			<td>no</td>
+			<td><a href="https://en.wikipedia.org/wiki/proprietary_software">proprietary</a></td>
+		</tr>
+		<tr>
+			<td><a href="https://github.com/rcorcs/rcc">rcc (rcor c compiler)</a></td>
+			<td>rodrigo caetano rocha (rcor)</td>
+			<td>yes</td>
+			<td>yes</td>
+			<td>no</td>
+			<td><a href="https://en.wikipedia.org/wiki/gnu_general_public_license">gpl</a></td>
+		</tr>
+		<tr>
+			<td><a href="https://github.com/roberteldersoftware/recc">recc (robert elder compiler collection)</a></td>
+			<td>robert elder</td>
+			<td>yes</td>
+			<td>yes</td>
+			<td>no</td>
+			<td><a href="https://en.wikipedia.org/wiki/apache_license">apache license 2.0</a></td>
+		</tr>
+		<tr>
+			<td><a href="https://en.wikipedia.org/w/index.php?@***@le=ritchie_c_compiler&amp;action=edit&amp;redlink=1">ritchie c compiler</a>&nbsp;(pdp-11)</td>
+			<td><a href="https://en.wikipedia.org/wiki/dennis_ritchie">dennis ritchie</a>&nbsp;and john reiser; converted to cross-compiler by&nbsp;<a href="https://en.wikipedia.org/w/index.php?@***@le=doug_gwyn&amp;action=edit&amp;redlink=1">doug gwyn</a></td>
+			<td>yes</td>
+			<td>yes</td>
+			<td>yes</td>
+			<td><a href="https://en.wikipedia.org/wiki/freeware">freeware</a></td>
+		</tr>
+		<tr>
+			<td><a href="https://en.wikipedia.org/wiki/lattice_c">sas/c</a></td>
+			<td><a href="https://en.wikipedia.org/wiki/sas_ins@***@ute">sas ins@***@ute</a></td>
+			<td>yes</td>
+			<td>yes</td>
+			<td>yes ibm mainframe, amigaos, 68k, 88k</td>
+			<td><a href="https://en.wikipedia.org/wiki/proprietary_software">proprietary</a></td>
+		</tr>
+		<tr>
+			<td><a href="http://git.@***@less.org/scc/">scc</a></td>
+			<td><a href="https://en.wikipedia.org/wiki/@***@less.org">@***@less.org</a></td>
+			<td>no</td>
+			<td>yes</td>
+			<td>no</td>
+			<td><a href="https://en.wikipedia.org/wiki/isc_license">isc license</a></td>
+		</tr>
+		<tr>
+			<td><a href="http://www.ddci.com/products_score.php">score c (tcc)</a></td>
+			<td><a href="https://en.wikipedia.org/wiki/ddc-i">ddc-i</a></td>
+			<td>yes</td>
+			<td>yes</td>
+			<td>yes</td>
+			<td><a href="https://en.wikipedia.org/wiki/proprietary_software">proprietary</a></td>
+		</tr>
+		<tr>
+			<td><a href="https://en.wikipedia.org/wiki/small-c">small-c</a></td>
+			<td><a href="https://en.wikipedia.org/w/index.php?@***@le=ron_caine&amp;action=edit&amp;redlink=1">ron caine</a>,&nbsp;<a href="https://en.wikipedia.org/w/index.php?@***@le=james_e._hendrix&amp;action=edit&amp;redlink=1">james e. hendrix</a>,&nbsp;<a href="https://en.wikipedia.org/wiki/byte_magazine">byte magazine</a></td>
+			<td>yes</td>
+			<td>yes</td>
+			<td><a href="https://en.wikipedia.org/wiki/cp/m">cp/m</a>,&nbsp;<a href="https://en.wikipedia.org/wiki/dos">dos</a></td>
+			<td>public domain</td>
+		</tr>
+		<tr>
+			<td><a href="https://github.com/alexfru/smallerc">smaller c</a></td>
+			<td><a href="https://en.wikipedia.org/w/index.php?@***@le=alexey_frunze&amp;action=edit&amp;redlink=1">alexey frunze</a></td>
+			<td>yes</td>
+			<td><a href="https://en.wikipedia.org/wiki/linux">linux</a>,&nbsp;<a href="https://en.wikipedia.org/w/index.php?@***@le=retrobsd&amp;action=edit&amp;redlink=1">retrobsd</a></td>
+			<td><a href="https://en.wikipedia.org/wiki/dos">dos</a></td>
+			<td><a href="https://en.wikipedia.org/wiki/bsd_licenses">bsd</a></td>
+		</tr>
+		<tr>
+			<td><a href="https://en.wikipedia.org/wiki/small_device_c_compiler">small device c compiler</a></td>
+			<td><a href="https://en.wikipedia.org/w/index.php?@***@le=sandeep_dutta&amp;action=edit&amp;redlink=1">sandeep dutta</a>&nbsp;and others</td>
+			<td>yes</td>
+			<td>yes</td>
+			<td>unknown</td>
+			<td><a href="https://en.wikipedia.org/wiki/gnu_general_public_license">gpl</a></td>
+		</tr>
+		<tr>
+			<td><a href="http://www.t3x.org/subc/">subc</a></td>
+			<td>nils m holm</td>
+			<td><a href="https://en.wikipedia.org/wiki/mingw">mingw</a></td>
+			<td><a href="https://en.wikipedia.org/wiki/freebsd">freebsd</a>,&nbsp;<a href="https://en.wikipedia.org/wiki/netbsd">netbsd</a>,&nbsp;<a href="https://en.wikipedia.org/wiki/linux">linux</a></td>
+			<td><a href="https://en.wikipedia.org/wiki/dos">dos</a></td>
+			<td>public domain</td>
+		</tr>
+		<tr>
+			<td><a href="http://www.tasking.com/">tasking</a></td>
+			<td><a href="https://en.wikipedia.org/wiki/altium">altium</a></td>
+			<td>yes</td>
+			<td><a href="https://en.wikipedia.org/wiki/linux">linux</a>,&nbsp;<a href="https://en.wikipedia.org/wiki/macos">macos</a></td>
+			<td>no</td>
+			<td><a href="https://en.wikipedia.org/wiki/proprietary_software">proprietary</a></td>
+		</tr>
+		<tr>
+			<td><a href="https://en.wikipedia.org/wiki/think_c">think c</a>, lightspeed c</td>
+			<td>think technologies</td>
+			<td>no</td>
+			<td>no</td>
+			<td><a href="https://en.wikipedia.org/wiki/cl@***@ic_mac_os">cl@***@ic mac os</a></td>
+			<td><a href="https://en.wikipedia.org/wiki/proprietary_software">proprietary</a></td>
+		</tr>
+		<tr>
+			<td><a href="https://en.wikipedia.org/wiki/tiny_c_compiler">tiny c compiler</a></td>
+			<td><a href="https://en.wikipedia.org/wiki/fabrice_bellard">fabrice bellard</a></td>
+			<td>yes</td>
+			<td>yes</td>
+			<td>no</td>
+			<td><a href="https://en.wikipedia.org/wiki/gnu_lesser_general_public_license">lgpl</a></td>
+		</tr>
+		<tr>
+			<td>(<a href="https://en.wikipedia.org/wiki/borland">borland</a>)&nbsp;<a href="https://en.wikipedia.org/wiki/turbo_c">turbo c</a></td>
+			<td><a href="https://en.wikipedia.org/wiki/embarcadero_technologies">embarcadero</a></td>
+			<td>yes</td>
+			<td>no</td>
+			<td>yes</td>
+			<td><a href="https://en.wikipedia.org/wiki/proprietary_software">proprietary</a>&nbsp;- v 2.01 freely available</td>
+		</tr>
+		<tr>
+			<td><a href="https://github.com/bobrippling/ucc-c-compiler">ucc</a></td>
+			<td>robert pilling</td>
+			<td>yes</td>
+			<td>yes</td>
+			<td>no</td>
+			<td><a href="https://en.wikipedia.org/wiki/mit_license">mit license</a></td>
+		</tr>
+		<tr>
+			<td><a href="http://ups.sourceforge.net/">ups debugger</a>(includes c interpreter)</td>
+			<td>tom hughes, ian edwards, and others</td>
+			<td>no</td>
+			<td>yes</td>
+			<td><a href="https://en.wikipedia.org/wiki/solaris_(operating_system)">solaris</a>,&nbsp;<a href="https://en.wikipedia.org/wiki/sunos">sunos</a></td>
+			<td><a href="https://en.wikipedia.org/wiki/gnu_general_public_license">gpl</a></td>
+		</tr>
+		<tr>
+			<td><a href="https://en.wikipedia.org/wiki/vbcc">vbcc</a></td>
+			<td><a href="https://en.wikipedia.org/w/index.php?@***@le=volker_barthelmann&amp;action=edit&amp;redlink=1">volker barthelmann</a></td>
+			<td>yes</td>
+			<td>yes</td>
+			<td>yes</td>
+			<td><a href="https://en.wikipedia.org/wiki/freeware">freeware</a>&nbsp;(source code available, modification not allowed)</td>
+		</tr>
+		<tr>
+			<td><a href="https://sites.google.com/site/virtualcide/">virtual-c ide</a></td>
+			<td>dieter pawelczak</td>
+			<td>yes</td>
+			<td><a href="https://en.wikipedia.org/wiki/os_x">os x</a></td>
+			<td>no</td>
+			<td><a href="https://en.wikipedia.org/wiki/freeware">freeware</a>&nbsp;(for non-commercial use)</td>
+		</tr>
+		<tr>
+			<td><a href="https://en.wikipedia.org/wiki/visual_c%2b%2b_express">visual c++ express</a></td>
+			<td><a href="https://en.wikipedia.org/wiki/microsoft">microsoft</a></td>
+			<td>yes</td>
+			<td>no</td>
+			<td>no</td>
+			<td><a href="https://en.wikipedia.org/wiki/freeware">freeware</a></td>
+		</tr>
+		<tr>
+			<td><a href="https://en.wikipedia.org/wiki/wind_river_systems#wind_river_.28diab.29_compiler">wind river (diab) compiler</a></td>
+			<td><a href="https://en.wikipedia.org/wiki/wind_river_systems">wind river systems</a></td>
+			<td>yes</td>
+			<td>yes</td>
+			<td>yes</td>
+			<td><a href="https://en.wikipedia.org/wiki/proprietary_software">proprietary</a></td>
+		</tr>
+		<tr>
+			<td><a href="https://en.wikipedia.org/wiki/ibm_xl_c%2b%2b">xl c</a></td>
+			<td><a href="https://en.wikipedia.org/wiki/ibm">ibm</a></td>
+			<td>no</td>
+			<td><a href="https://en.wikipedia.org/wiki/aix">aix</a>,&nbsp;<a href="https://en.wikipedia.org/wiki/linux">linux</a></td>
+			<td>no</td>
+			<td><a href="https://en.wikipedia.org/wiki/proprietary_software">proprietary</a></td>
+		</tr>
+		<tr>
+			<td><a href="https://en.wikipedia.org/wiki/unisys_mcp_programming_languages">mcp</a></td>
+			<td><a href="https://en.wikipedia.org/wiki/unisys">unisys</a></td>
+			<td>no</td>
+			<td>no</td>
+			<td><a href="https://en.wikipedia.org/wiki/burroughs_mcp">mcp</a></td>
+			<td><a href="https://en.wikipedia.org/wiki/proprietary_software">proprietary</a></td>
+		</tr>
+	</tbody>
+</table>

@@ -1,0 +1,182 @@
+<p>fgfgdfg data types in c refer to an extensive system used for declaring variables or functions of different types. the type of a variable determines how much space it occupies in storage and how the bit pattern stored is interpreted.</p>
+
+<p>the types in c can be cl@***@ified as follows &minus;</p>
+
+<table>
+	<tbody>
+		<tr>
+			<th>s.n.</th>
+			<th style="text-align:center">types &amp; description</th>
+		</tr>
+		<tr>
+			<td>1</td>
+			<td>
+			<p><strong>basic types</strong></p>
+
+			<p>they are arithmetic types and are further cl@***@ified into: (a) integer types and (b) floating-point types.</p>
+			</td>
+		</tr>
+		<tr>
+			<td>2</td>
+			<td>
+			<p><strong>enumerated types</strong></p>
+
+			<p>they are again arithmetic types and they are used to define variables that can only @***@ign certain discrete integer values throughout the program.</p>
+			</td>
+		</tr>
+		<tr>
+			<td>3</td>
+			<td>
+			<p><strong>the type void</strong></p>
+
+			<p>the type specifier <em>void</em> indicates that no value is available.</p>
+			</td>
+		</tr>
+		<tr>
+			<td>4</td>
+			<td>
+			<p><strong>derived types</strong></p>
+
+			<p>they include (a) pointer types, (b) array types, (c) structure types, (d) union types and (e) function types.</p>
+			</td>
+		</tr>
+	</tbody>
+</table>
+
+<p>the array types and structure types are referred collectively as the aggregate types. the type of a function specifies the type of the function&#39;s return value. we will see the basic types in the following section, where as other types will be covered in the upcoming chapters.</p>
+
+<h2>integer types</h2>
+
+<p>the following table provides the details of standard integer types with their storage sizes and value ranges &minus;</p>
+
+<table>
+	<tbody>
+		<tr>
+			<th style="width:23%">type</th>
+			<th style="width:20%">storage size</th>
+			<th>value range</th>
+		</tr>
+		<tr>
+			<td>char</td>
+			<td>1 byte</td>
+			<td>-128 to 127 or 0 to 255</td>
+		</tr>
+		<tr>
+			<td>unsigned char</td>
+			<td>1 byte</td>
+			<td>0 to 255</td>
+		</tr>
+		<tr>
+			<td>signed char</td>
+			<td>1 byte</td>
+			<td>-128 to 127</td>
+		</tr>
+		<tr>
+			<td>int</td>
+			<td>2 or 4 bytes</td>
+			<td>-32,768 to 32,767 or -2,147,483,648 to 2,147,483,647</td>
+		</tr>
+		<tr>
+			<td>unsigned int</td>
+			<td>2 or 4 bytes</td>
+			<td>0 to 65,535 or 0 to 4,294,967,295</td>
+		</tr>
+		<tr>
+			<td>short</td>
+			<td>2 bytes</td>
+			<td>-32,768 to 32,767</td>
+		</tr>
+		<tr>
+			<td>unsigned short</td>
+			<td>2 bytes</td>
+			<td>0 to 65,535</td>
+		</tr>
+		<tr>
+			<td>long</td>
+			<td>4 bytes</td>
+			<td>-2,147,483,648 to 2,147,483,647</td>
+		</tr>
+		<tr>
+			<td>unsigned long</td>
+			<td>4 bytes</td>
+			<td>0 to 4,294,967,295</td>
+		</tr>
+	</tbody>
+</table>
+
+<p>to get the exact size of a type or a variable on a particular platform, you can use the <strong>sizeof</strong> operator. the expressions <em>sizeof(type)</em> yields the storage size of the object or type in bytes. given below is an example to get the size of int type on any machine &minus;</p>
+
+<pre>
+#include 
+#include 
+
+int main() {
+
+   printf(&quot;storage size for int : %d \n&quot;, sizeof(int));
+   
+   return 0;
+}</pre>
+
+<p>when you compile and execute the above program, it produces the following result on linux &minus;</p>
+
+<pre>
+storage size for int : 4
+</pre>
+
+<h2>floating-point types</h2>
+
+<p>the following table provide the details of standard floating-point types with storage sizes and value ranges and their precision &minus;</p>
+
+<table>
+	<tbody>
+		<tr>
+			<th>type</th>
+			<th>storage size</th>
+			<th>value range</th>
+			<th>precision</th>
+		</tr>
+		<tr>
+			<td>float</td>
+			<td>4 byte</td>
+			<td>1.2e-38 to 3.4e+38</td>
+			<td>6 decimal places</td>
+		</tr>
+		<tr>
+			<td>double</td>
+			<td>8 byte</td>
+			<td>2.3e-308 to 1.7e+308</td>
+			<td>15 decimal places</td>
+		</tr>
+		<tr>
+			<td>long double</td>
+			<td>10 byte</td>
+			<td>3.4e-4932 to 1.1e+4932</td>
+			<td>19 decimal places</td>
+		</tr>
+	</tbody>
+</table>
+
+<p>the header file float.h defines macros that allow you to use these values and other details about the binary representation of real numbers in your programs. the following example prints the storage space taken by a float type and its range values &minus;</p>
+
+<pre>
+#include 
+#include 
+
+int main() {
+
+   printf(&quot;storage size for float : %d \n&quot;, sizeof(float));
+   printf(&quot;minimum float positive value: %e\n&quot;, flt_min );
+   printf(&quot;maximum float positive value: %e\n&quot;, flt_max );
+   printf(&quot;precision value: %d\n&quot;, flt_dig );
+   
+   return 0;
+}</pre>
+
+<p>when you compile and execute the above program, it produces the following result on linux &minus;</p>
+
+<pre>
+storage size for float : 4
+minimum float positive value: 1.175494e-38
+maximum float positive value: 3.402823e+38
+precision value: 6
+</pre>

@@ -1,0 +1,17 @@
+<h2><a name="section00312000000000000000">compilation</a></h2>
+
+<p>there are many c compilers around. the&nbsp;<tt>cc</tt>&nbsp;being the default sun compiler. the gnu c compiler&nbsp;<tt>gcc</tt>&nbsp;is popular and available for many platforms. pc users may also be familiar with the borland&nbsp;<tt>bcc</tt>&nbsp;compiler.</p>
+
+<p>there are also equivalent c++ compilers which are usually denoted by&nbsp;<tt>cc</tt>&nbsp;(<em>note</em>&nbsp;upper case cc. for example sun provides cc and gnu&nbsp;<tt>gcc</tt>. the gnu compiler is also denoted by&nbsp;<tt>g++</tt></p>
+
+<p>other (less common) c/c++ compilers exist. all the above compilers operate in essentially the same manner and share many common command line options. below and in appendix&nbsp;<a href="https://users.cs.cf.ac.uk/dave/c/node3.html#app:compiler"><img alt="[*]" src="https://users.cs.cf.ac.uk/opt/latex2html/icons.gif/cross_ref_motif.gif" /></a>&nbsp;we list and give example uses many of the common compiler options. however, the&nbsp;<strong>best</strong>&nbsp;source of each compiler is through the online manual pages of your system:&nbsp;<em>e.g.</em>&nbsp;<tt>man cc</tt>.</p>
+
+<p>for the sake of compactness in the basic discussions of compiler operation we will simply refer to the&nbsp;<tt>cc</tt>&nbsp;compiler -- other compilers can simply be subs@***@uted in place of&nbsp;<tt>cc</tt>&nbsp;unless otherwise stated.</p>
+
+<p>to compile your program simply invoke the command&nbsp;<tt>cc</tt>. the command must be followed by the name of the (c) program you wish to compile. a number of compiler options can be specified also. we will not concern ourselves with many of these options yet, some useful and often essential options are introduced below -- see appendix&nbsp;<a href="https://users.cs.cf.ac.uk/dave/c/node3.html#app:compiler"><img alt="[*]" src="https://users.cs.cf.ac.uk/opt/latex2html/icons.gif/cross_ref_motif.gif" /></a>&nbsp;or online manual help for further details.</p>
+
+<p>thus, the basic compilation command is:</p>
+
+<p>&nbsp;&nbsp;&nbsp;&nbsp;<tt>cc program.c</tt></p>
+
+<p>where&nbsp;<em>program.c</em>&nbsp;is the name of the file.</p>

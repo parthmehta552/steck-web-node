@@ -1,0 +1,37 @@
+  if(out.FirstPhase(req)==0){
+        if(out.SecondPhase(arrofParam,req)==0){
+           if(req.body.email && req.body.password){
+                if(out.FourthPhase(req.body.email)==0){
+
+                  //operation
+
+                }else{
+                    res.send(out.responseError(vali.FOURTH_PHASE_MESSAGE,vali.FOURTH_PHASE_CODE,false));
+                }
+           }else{
+               res.send(out.responseError(vali.THIRD_PHASE_MESSAGE,vali.THIRD_PHASE_CODE,false)); 
+           }
+        }else{
+         res.send(out.responseError(vali.SECOND_PHASE_MESSAGE,vali.SECOND_PHASE_CODE,false));   
+        }
+    }else{
+         res.send(out.responseError(vali.FIRST_PHASE_MESSAGE,vali.FIRST_PHASE_CODE,false));
+    }
+
+
+
+      if(out.FirstPhase(request)==0){
+        if(out.SecondPhase(arrofParam,request)==0){
+           if(request.body.email && request.body.password){
+                
+                //operation
+
+           }else{
+               response.send(out.responseError(vali.THIRD_PHASE_MESSAGE,vali.THIRD_PHASE_CODE,false)); 
+           }
+        }else{
+         response.send(out.responseError(vali.SECOND_PHASE_MESSAGE,vali.SECOND_PHASE_CODE,false));   
+        }
+    }else{
+         response.send(out.responseError(vali.FIRST_PHASE_MESSAGE,vali.FIRST_PHASE_CODE,false));
+    }

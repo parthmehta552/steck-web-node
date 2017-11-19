@@ -1,0 +1,56 @@
+<ul>
+	<li>the c programming language is a structure oriented programming language, developed at bell laboratories in 1972 by dennis ritchie</li>
+	<li>c programming language features were derived from an earlier language called &ldquo;b&rdquo; (basic combined programming language &ndash; bcpl)</li>
+	<li>c language was invented for implementing unix operating system</li>
+	<li>in 1978, dennis ritchie and brian kernighan published the first edition &ldquo;the c programming language&rdquo; and commonly known as k&amp;r c</li>
+	<li>in 1983, the american national standards ins@***@ute (ansi) established a committee to provide a modern, comprehensive definition of c. the resulting definition, the ansi standard, or &ldquo;ansi c&rdquo;, was completed late 1988.</li>
+</ul>
+
+<h1><strong>c programming language standards:</strong></h1>
+
+<ul>
+	<li>c89/c90 standard &ndash; first standardized specification for c language was developed by the american national standards ins@***@ute in 1989. c89 and c90 standards refer to the same programming language.</li>
+	<li>c99 standard &ndash; next revision was published in 1999 that introduced new features like advanced data types and other changes.</li>
+</ul>
+
+<h1><strong>c11 and embedded c language:</strong></h1>
+
+<ul>
+	<li>c11 standard adds new features to c programming language and library like type generic macros, anonymous structures, improved unicode support, atomic operations, multi-threading and bounds-checked functions. it also makes some portions of the existing c99 library optional and improves compatibility with c++.</li>
+	<li>embedded c includes features not available in c like fixed-point arithmetic, named address spaces, and basic i/o hardware addressing.</li>
+	<li>operating systems, c compiler and all unix application programs are written in c language</li>
+	<li>it is also called as procedure oriented programming language. the c language is reliable, simple and easy to use. c has been coded in @***@embly language.</li>
+</ul>
+
+<h1><strong>features of c programming language:</strong></h1>
+
+<p>c language is one of the powerful language. below are some of the features of c language.</p>
+
+<ul>
+	<li>reliability</li>
+	<li>portability</li>
+	<li>flexibility</li>
+	<li>interactivity</li>
+	<li>modularity</li>
+	<li>efficiency and effectiveness</li>
+</ul>
+
+<h1><strong>uses of c programming language:</strong></h1>
+
+<p>the c programming language is used for developing system applications that forms a major portion of operating systems such as windows, unix and linux. below are some examples of c being used.</p>
+
+<ul>
+	<li>database systems</li>
+	<li>graphics packages</li>
+	<li>word processors</li>
+	<li>spreadsheets</li>
+	<li>operating system development</li>
+	<li>compilers and @***@emblers</li>
+	<li>network drivers</li>
+	<li>interpreters</li>
+</ul>
+
+<p><a href="http://fresh2refresh.com/c-programming/c-language-history/" onclick="window.open(this.href, '', 'resizable=no,status=no,location=no,toolbar=no,menubar=no,fullscreen=no,scrollbars=no,dependent=no'); return false;">http://fresh2refresh.com/c-programming/c-language-history/</a></p>
+
+<pre>
+&nbsp;</pre>

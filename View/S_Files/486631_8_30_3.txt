@@ -1,0 +1,95 @@
+<p>you may encounter situations, when a block of code needs to be executed several number of times. in general, statements are executed sequentially: the first statement in a function is executed first, followed by the second, and so on.</p>
+
+<p>programming languages provide various control structures that allow for more complicated execution paths.</p>
+
+<p>a loop statement allows us to execute a statement or group of statements multiple times. given below is the general form of a loop statement in most of the programming languages &minus;</p>
+
+<p><img alt="loop architecture" src="https://www.tutorialspoint.com/cprogramming/images/loop_architecture.jpg" /></p>
+
+<p>c programming language provides the following types of loops to handle looping requirements.</p>
+
+<table>
+	<tbody>
+		<tr>
+			<th>s.n.</th>
+			<th style="text-align:center">loop type &amp; description</th>
+		</tr>
+		<tr>
+			<td>1</td>
+			<td><a href="https://www.tutorialspoint.com/cprogramming/c_while_loop.htm">while loop</a>
+			<p>repeats a statement or group of statements while a given condition is true. it tests the condition before executing the loop body.</p>
+			</td>
+		</tr>
+		<tr>
+			<td>2</td>
+			<td><a href="https://www.tutorialspoint.com/cprogramming/c_for_loop.htm">for loop</a>
+			<p>executes a sequence of statements multiple times and abbreviates the code that manages the loop variable.</p>
+			</td>
+		</tr>
+		<tr>
+			<td>3</td>
+			<td><a href="https://www.tutorialspoint.com/cprogramming/c_do_while_loop.htm">do...while loop</a>
+			<p>it is more like a while statement, except that it tests the condition at the end of the loop body.</p>
+			</td>
+		</tr>
+		<tr>
+			<td>4</td>
+			<td><a href="https://www.tutorialspoint.com/cprogramming/c_nested_loops.htm">nested loops</a>
+			<p>you can use one or more loops inside any other while, for, or do..while loop.</p>
+			</td>
+		</tr>
+	</tbody>
+</table>
+
+<h2>loop control statements</h2>
+
+<p>loop control statements change execution from its normal sequence. when execution leaves a scope, all automatic objects that were created in that scope are destroyed.</p>
+
+<p>c supports the following control statements.</p>
+
+<table>
+	<tbody>
+		<tr>
+			<th>s.n.</th>
+			<th style="text-align:center">control statement &amp; description</th>
+		</tr>
+		<tr>
+			<td>1</td>
+			<td><a href="https://www.tutorialspoint.com/cprogramming/c_break_statement.htm">break statement</a>
+			<p>terminates the <strong>loop</strong> or <strong>switch</strong> statement and transfers execution to the statement immediately following the loop or switch.</p>
+			</td>
+		</tr>
+		<tr>
+			<td>2</td>
+			<td><a href="https://www.tutorialspoint.com/cprogramming/c_continue_statement.htm">continue statement</a>
+			<p>causes the loop to skip the remainder of its body and immediately retest its condition prior to reiterating.</p>
+			</td>
+		</tr>
+		<tr>
+			<td>3</td>
+			<td><a href="https://www.tutorialspoint.com/cprogramming/c_goto_statement.htm">goto statement</a>
+			<p>transfers control to the labeled statement.</p>
+			</td>
+		</tr>
+	</tbody>
+</table>
+
+<h2>the infinite loop</h2>
+
+<p>a loop becomes an infinite loop if a condition never becomes false. the <strong>for</strong> loop is traditionally used for this purpose. since none of the three expressions that form the &#39;for&#39; loop are required, you can make an endless loop by leaving the conditional expression empty.</p>
+
+<pre>
+#include &lt;stdio.h&gt;
+ 
+int main () {
+
+   for( ; ; ) {
+      printf(&quot;this loop will run forever.\n&quot;);
+   }
+
+   return 0;
+}</pre>
+
+<p>when the conditional expression is absent, it is @***@umed to be true. you may have an initialization and increment expression, but c programmers more commonly use the for(;;) construct to signify an infinite loop.</p>
+
+<p><strong>note</strong> &minus; you can terminate an infinite loop by pressing ctrl + c keys.</p>

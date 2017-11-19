@@ -1,0 +1,63 @@
+<h2><a name="section00313000000000000000">running the program</a></h2>
+
+<p>the next stage is to actually run your executable program. to run an executable in unix, you simply type the name of the file containing it, in this case&nbsp;<em>program</em>&nbsp;(or&nbsp;<em>a.out</em>)</p>
+
+<p>this executes your program, printing any results to the screen. at this stage there may be run-time errors, such as division by zero, or it may become evident that the program has produced incorrect output.</p>
+
+<p>if so, you must return to edit your program source, and recompile it, and run it again.</p>
+
+<p>&nbsp;</p>
+
+<h1><a name="section00320000000000000000">the c compilation model</a></h1>
+
+<p>we will briefly highlight key features of the c compilation model (fig.&nbsp;<a href="https://users.cs.cf.ac.uk/dave/c/node3.html#fig:comp">2.1</a>) here.</p>
+
+<p><a name="fig:comp">&nbsp;</a><img src="https://users.cs.cf.ac.uk/dave/c/cmodel.gif" /></p>
+
+<p><strong>fig.&nbsp;<a href="https://users.cs.cf.ac.uk/dave/c/node3.html#fig:comp">2.1</a>&nbsp;the c compilation model</strong></p>
+
+<p>&nbsp;</p>
+
+<h2><a name="section00321000000000000000">the preprocessor</a></h2>
+
+<p>we will study this part of the compilation process in greater detail later (chapter&nbsp;<a href="https://users.cs.cf.ac.uk/dave/c/node14.html#ch:preprocess">13</a>. however we need some basic information for some c programs.</p>
+
+<p>the preprocessor accepts source code as input and is responsible for</p>
+
+<ul>
+	<li>removing comments</li>
+	<li>interpreting special&nbsp;<em>preprocessor directives</em>&nbsp;denoted by&nbsp;<tt>#</tt>.</li>
+</ul>
+
+<p>for example</p>
+
+<ul>
+	<li><tt>#include</tt>&nbsp;-- includes contents of a named file. files usually called&nbsp;<em>header</em>&nbsp;files.&nbsp;<em>e.g</em>
+
+	<ul>
+		<li><tt>#include &lt;math.h&gt;</tt>&nbsp;-- standard library maths file.</li>
+		<li><tt>#include &lt;stdio.h&gt;</tt>&nbsp;-- standard library i/o file</li>
+	</ul>
+	</li>
+	<li><tt>#define</tt>&nbsp;-- defines a symbolic name or constant. macro subs@***@ution.
+	<ul>
+		<li><tt>#define max_array_size 100</tt></li>
+	</ul>
+	</li>
+</ul>
+
+<h2><a name="section00322000000000000000">c compiler</a></h2>
+
+<p>the c compiler translates source to @***@embly code. the source code is received from the preprocessor.</p>
+
+<p>&nbsp;</p>
+
+<h2><a name="section00323000000000000000">@***@embler</a></h2>
+
+<p>the @***@embler creates object code. on a unix system you may see files with a&nbsp;<tt>.o</tt>&nbsp;suffix (<tt>.obj</tt>&nbsp;on msdos) to indicate object code files.</p>
+
+<p>&nbsp;</p>
+
+<h2><a name="section00324000000000000000">link editor</a></h2>
+
+<p>if a source file references library functions or functions defined in other source files the&nbsp;<em>link editor</em>&nbsp;combines these functions (with&nbsp;<tt>main()</tt>) to create an executable file. external variable references resolved here also.&nbsp;<em>more on this later</em>&nbsp;(chapter&nbsp;<a href="https://users.cs.cf.ac.uk/dave/c/node35.html#ch:prog">34</a>).</p>

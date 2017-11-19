@@ -1,0 +1,96 @@
+<p>arrays allow to define type of variables that can hold several data items of the same kind. similarly <strong>structure</strong> is another user defined data type available in c that allows to combine data items of different kinds.</p>
+
+<p>structures are used to represent a record. suppose you want to keep track of your books in a library. you might want to track the following attributes about each book &minus;</p>
+
+<ul>
+	<li>@***@le</li>
+	<li>author</li>
+	<li>subject</li>
+	<li>book id</li>
+</ul>
+
+<h2>defining a structure</h2>
+
+<p>to define a structure, you must use the <strong>struct</strong> statement. the struct statement defines a new data type, with more than one member. the format of the struct statement is as follows &minus;</p>
+
+<pre>
+struct [structure tag] {
+
+   member definition;
+   member definition;
+   ...
+   member definition;
+} [one or more structure variables];  
+</pre>
+
+<p>the <strong>structure tag</strong> is optional and each member definition is a normal variable definition, such as int i; or float f; or any other valid variable definition. at the end of the structure&#39;s definition, before the final semicolon, you can specify one or more structure variables but it is optional. here is the way you would declare the book structure &minus;</p>
+
+<pre>
+struct books {
+   char  @***@le[50];
+   char  author[50];
+   char  subject[100];
+   int   book_id;
+} book;  
+</pre>
+
+<h2>accessing structure members</h2>
+
+<p>to access any member of a structure, we use the <strong>member access operator (.)</strong>. the member access operator is coded as a period between the structure variable name and the structure member that we wish to access. you would use the keyword <strong>struct</strong> to define variables of structure type. the following example shows how to use a structure in a program &minus;</p>
+
+<pre>
+#include &lt;stdio.h&gt;
+#include &lt;string.h&gt;
+ 
+struct books {
+   char  @***@le[50];
+   char  author[50];
+   char  subject[100];
+   int   book_id;
+};
+ 
+int main( ) {
+
+   struct books book1;        /* declare book1 of type book */
+   struct books book2;        /* declare book2 of type book */
+ 
+   /* book 1 specification */
+   strcpy( book1.@***@le, &quot;c programming&quot;);
+   strcpy( book1.author, &quot;nuha ali&quot;); 
+   strcpy( book1.subject, &quot;c programming tutorial&quot;);
+   book1.book_id = 6495407;
+
+   /* book 2 specification */
+   strcpy( book2.@***@le, &quot;telecom billing&quot;);
+   strcpy( book2.author, &quot;zara ali&quot;);
+   strcpy( book2.subject, &quot;telecom billing tutorial&quot;);
+   book2.book_id = 6495700;
+ 
+   /* print book1 info */
+   printf( &quot;book 1 @***@le : %s\n&quot;, book1.@***@le);
+   printf( &quot;book 1 author : %s\n&quot;, book1.author);
+   printf( &quot;book 1 subject : %s\n&quot;, book1.subject);
+   printf( &quot;book 1 book_id : %d\n&quot;, book1.book_id);
+
+   /* print book2 info */
+   printf( &quot;book 2 @***@le : %s\n&quot;, book2.@***@le);
+   printf( &quot;book 2 author : %s\n&quot;, book2.author);
+   printf( &quot;book 2 subject : %s\n&quot;, book2.subject);
+   printf( &quot;book 2 book_id : %d\n&quot;, book2.book_id);
+
+   return 0;
+}
+</pre>
+
+<p>when the above code is compiled and executed, it produces the following result &minus;</p>
+
+<pre>
+book 1 @***@le : c programming
+book 1 author : nuha ali
+book 1 subject : c programming tutorial
+book 1 book_id : 6495407
+book 2 @***@le : telecom billing
+book 2 author : zara ali
+book 2 subject : telecom billing tutorial
+book 2 book_id : 6495700
+</pre>

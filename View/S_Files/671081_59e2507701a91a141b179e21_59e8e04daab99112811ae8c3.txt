@@ -1,0 +1,43 @@
+<h2>differences between struct and cl@***@es in c++[<a href="https://en.wikipedia.org/w/index.php?@***@le=c%2b%2b_cl@***@es&amp;action=edit&amp;section=1">edit</a>]</h2>
+
+<p>in c++, a cl@***@ defined with the&nbsp;<code>cl@***@</code>&nbsp;keyword has&nbsp;<a href="https://en.wikipedia.org/wiki/access_modifiers">private</a>&nbsp;members and base cl@***@es by default. a&nbsp;<em>structure</em>&nbsp;is a cl@***@ defined with the&nbsp;<code>struct</code>&nbsp;keyword.<a href="https://en.wikipedia.org/wiki/c%2b%2b_cl@***@es#cite_note-c.2b.2b03_9.2f4-1">[1]</a>its members and base cl@***@es are&nbsp;<a href="https://en.wikipedia.org/wiki/access_modifiers">public</a>&nbsp;by default.</p>
+
+<h2>aggregate cl@***@es[<a href="https://en.wikipedia.org/w/index.php?@***@le=c%2b%2b_cl@***@es&amp;action=edit&amp;section=2">edit</a>]</h2>
+
+<p>an aggregate cl@***@ is a cl@***@ with no user-declared constructors, no private or protected non-static data members, no base cl@***@es, and no virtual functions.<a href="https://en.wikipedia.org/wiki/c%2b%2b_cl@***@es#cite_note-c.2b.2b03_8.5.1.2f1-2">[2]</a>such a cl@***@ can be initialized with a brace-enclosed comma-separated list of initializer-clauses.<a href="https://en.wikipedia.org/wiki/c%2b%2b_cl@***@es#cite_note-c.2b.2b03_8.5.1.2f2-3">[3]</a>&nbsp;the following code has the same semantics in both c and c++.</p>
+
+<pre>
+struct c
+{
+  int a;
+  double b;
+};
+
+struct d
+{
+  int a; 
+  double b;
+  c c;
+};
+
+// initialize an object of type c with an initializer-list
+c c = {1, 2.0};
+
+// d has a sub-aggregate of type c. in such cases initializer-clauses can be nested
+d d = {10, 20.0, {1, 2.0}};
+</pre>
+
+<h3>pod-structs[<a href="https://en.wikipedia.org/w/index.php?@***@le=c%2b%2b_cl@***@es&amp;action=edit&amp;section=3">edit</a>]</h3>
+
+<p>a&nbsp;<a href="https://en.wikipedia.org/wiki/plain_old_data_structures">pod-struct</a>&nbsp;(plain old data structure) is an aggregate cl@***@ that has no non-static data members of type non-pod-struct, non-pod-union (or array of such types) or reference, and has no user-defined&nbsp;<a href="https://en.wikipedia.org/wiki/@***@ignment_operator">@***@ignment operator</a>&nbsp;and no user-defined&nbsp;<a href="https://en.wikipedia.org/wiki/destructor_(computer_science)">destructor</a>.<a href="https://en.wikipedia.org/wiki/c%2b%2b_cl@***@es#cite_note-c.2b.2b03_9.2f4-1">[1]</a>&nbsp;a pod-struct could be said to be the c++ equivalent of a c&nbsp;<code>struct</code>. in most cases, a pod-struct will have the same memory layout as a corresponding struct declared in c.<a href="https://en.wikipedia.org/wiki/c%2b%2b_cl@***@es#cite_note-como-4">[4]</a>&nbsp;for this reason, pod-structs are sometimes colloquially referred to as &quot;c-style structs&quot;.<a href="https://en.wikipedia.org/wiki/c%2b%2b_cl@***@es#cite_note-is-5">[5]</a></p>
+
+<p>properties shared between structs in c and pod-structs in c++[<a href="https://en.wikipedia.org/w/index.php?@***@le=c%2b%2b_classes&amp;action=edit&amp;section=4">edit</a>]</p>
+
+<ul>
+	<li>data members are allocated so that later members have higher addresses within an object, except where separated by an access-specifier.<a href="https://en.wikipedia.org/wiki/c%2b%2b_classes#cite_note-c.2b.2b03_9.2.2f12-6">[6]</a></li>
+	<li>two pod-struct types are layout-compatible if they have the same number of nonstatic data members, and corresponding nonstatic data members (in order) have layout-compatible types.<a href="https://en.wikipedia.org/wiki/c%2b%2b_classes#cite_note-c.2b.2b03_9.2.2f14-7">[7]</a></li>
+	<li>a pod-struct may contain unnamed&nbsp;<a href="https://en.wikipedia.org/wiki/data_structure_alignment">padding</a>.<a href="https://en.wikipedia.org/wiki/c%2b%2b_classes#cite_note-c.2b.2b03_9.2.2f17-8">[8]</a></li>
+	<li>a pointer to a pod-struct object, suitably converted using a&nbsp;<a href="https://en.wikipedia.org/wiki/reinterpret_cast">reinterpret cast</a>, points to its initial member and vice versa, implying that there is no padding at the beginning of a pod-struct.<a href="https://en.wikipedia.org/wiki/c%2b%2b_classes#cite_note-c.2b.2b03_9.2.2f17-8">[8]</a></li>
+	<li>a pod-struct may be used with the&nbsp;<a href="https://en.wikipedia.org/wiki/offsetof">offsetof</a>&nbsp;macro.<a href="https://en.wikipedia.org/wiki/c%2b%2b_classes#cite_note-c.2b.2b03_18.1.2f5-9">[9]</a></li>
+	<li>&nbsp;</li>
+</ul>

@@ -1,0 +1,7 @@
+<h2><a name="section00312000000000000000">compilation</a></h2>
+
+<p>there are many c compilers around. the&nbsp;<tt>cc</tt>&nbsp;being the default sun compiler. the gnu c compiler&nbsp;<tt>gcc</tt>&nbsp;is popular and available for many platforms. pc users may also be familiar with the borland&nbsp;<tt>bcc</tt>&nbsp;compiler.</p>
+
+<p>there are also equivalent c++ compilers which are usually denoted by&nbsp;<tt>cc</tt>&nbsp;(<em>note</em>&nbsp;upper case cc. for example sun provides cc and gnu&nbsp;<tt>gcc</tt>. the gnu compiler is also denoted by&nbsp;<tt>g++</tt></p>
+
+<p>other (less common) c/c++ compilers exist. all the above compilers operate in essentially the same manner and share many common command line options. below and in appendix&nbsp;<a href="https://users.cs.cf.ac.uk/dave/c/node3.html#app:compiler"><img alt="[*]" src="https://users.cs.cf.ac.uk/opt/latex2html/icons.gif/cross_ref_motif.gif" /></a>&nbsp;we list and give example uses many of the common compiler options. however, the&nbsp;<strong>best</strong>&nbsp;source of each compiler is through the online manual pages of your system:&nbsp;<em>e.g.</em>&nbsp;<tt>man cc</tt>.</p>

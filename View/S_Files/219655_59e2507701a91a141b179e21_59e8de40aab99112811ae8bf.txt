@@ -1,0 +1,22 @@
+<p>you can create initializer functions that take a pointer to a structure. this was common practice.</p>
+
+<p>also functions that create a struct and initialize it (like a factory) - so there is never a time where the struct is &quot;uninitialized&quot; in the &quot;client&quot; code. of course - that @***@umes people follow the convention and use the &quot;constructor&quot;/factory...</p>
+
+<p>horrible pseudo code with no error checking on malloc or free</p>
+
+<pre>
+<code>somestruct* somestruct_factory(/* per haps some initializer agrs? */)
+{
+  malloc some stuff
+  fill in some stuff
+  return pointer to malloced stuff
+}
+
+
+void somestruct_destructor(somestruct*)
+{
+  do cleanup stuff and also free pointer
+  free(somestruct);
+}</code></pre>
+
+<p>someone will probably come along and explain how some early c++ preprocessors/compilers worked to do this all in c.</p>

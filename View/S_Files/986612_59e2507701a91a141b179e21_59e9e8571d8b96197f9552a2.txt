@@ -1,0 +1,13 @@
+somestruct* somestruct_factory(/* per haps some initializer agrs? */)
+{
+  malloc some stuff
+  fill in some stuff
+  return pointer to malloced stuff
+}
+
+
+void somestruct_destructor(somestruct*)
+{
+  do cleanup stuff and also free pointer
+  free(somestruct);
+}

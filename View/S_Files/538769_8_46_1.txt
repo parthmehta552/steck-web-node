@@ -1,0 +1,1 @@
+<p><img alt="" src="http://csharpcorner.mindcrackerinc.netdna-cdn.com/uploadfile/8ef97c/list-of-all-new-features-in-c-sharp-6-0-part-2/images/struct%20cl@***@.jpg" style="height:557px; width:374px" />describe your solution in proper way that the other can understand and more exploer it</p>

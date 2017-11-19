@@ -1,0 +1,10 @@
+<?php
+$url = "http://localhost:3030/listAllUsers";
+$content = file_get_contents($url);
+$json = json_decode($content,true);
+
+print $json["name"];
+print $json["email"];
+
+
+?>
